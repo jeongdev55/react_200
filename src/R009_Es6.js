@@ -25,7 +25,7 @@ ____다음줄입니다`);
 
   render() {
     return (
-      <h2>[ THIS IS ES6 STRING ]</h2>
+      <h2>[ This is ES6 String ]</h2>
     )
   }
 }
