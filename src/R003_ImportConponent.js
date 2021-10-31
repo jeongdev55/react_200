@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class R003_ImportConponent extends Component{
     render(){
         return(
-        <h2>[this is imported component]</h2>
+        <h2>[this is imported component !!!]</h2>
         )
     }
 }
