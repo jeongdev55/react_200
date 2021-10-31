@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ImportConponent from './R003_ImportConponent';
+import LifecycleEX from './R005_LifecycleEx'
 
 function App(){
   return (
@@ -8,7 +8,7 @@ function App(){
       <h1>Start React!</h1>
       <p>리액트 처음 시작하기</p>
       <p>conponent사용하기 </p>
-      <ImportConponent></ImportConponent>
+      <LifecycleEX></LifecycleEX>
     </div>
   );
 }
