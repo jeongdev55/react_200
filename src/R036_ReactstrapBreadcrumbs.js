@@ -6,10 +6,10 @@ class R036_ReactstrapBreadcrumbs extends Component {
     return (
       <div id="top">
         <Breadcrumb tag="nav" listTag="div">
-          <BreadcrumbItem tag="a" href="#top">Go_top</BreadcrumbItem>
-          <BreadcrumbItem tag="a" href="#bottom">Go_bottom</BreadcrumbItem>
+          <Breadcrumb tag="a" href="#top">Go_top</Breadcrumb>
+          <Breadcrumb tag="a" href="#bottom">Go_bottom</Breadcrumb>
         </Breadcrumb>
-        <div id="bottom" style={{marginTop:"1000px"}}>
+        <div id="bottom" style={{margin:"1000px"}}>
           <span>bottom</span>
         </div>
       </div>
