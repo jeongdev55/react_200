@@ -4,7 +4,7 @@ import { InputGroup, InputGroupAddon, InputGroupText, Input, Button } from 'reac
 class R045_ReactstrapInputGroup extends Component {
   render() {
     return (
-      <div>
+      <>
       <InputGroup>
         <Input placeholder="userid" />
         <InputGroupAddon addonType="append">
@@ -15,7 +15,7 @@ class R045_ReactstrapInputGroup extends Component {
         <InputGroupAddon addonType="prepend"><Button>버튼</Button></InputGroupAddon>
         <Input />
       </InputGroup>
-      </div>
+      </>
     )}
 }
 
